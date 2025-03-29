@@ -1,0 +1,55 @@
+VLSI setup
+home 
+mkdir -p ~/cad/gf65 && cd ~/cad/gf65
+
+/proj/cad/startup/setup-gf65_lpe.ic-6
+
+
+go to cadence working directory 
+
+cd ~/cad/gf65
+
+
+cp /proj/cad/startup/profile.ee7325_redhat-8 ./profile.ic-6
+
+source profile.ic-6
+
+virtuoso &
+
+
+
+JX to pin (0.69)
+pin to pin is 0.52
+
+
+click s to extend it 
+k is ruler
+
+NW is PMOS
+PC is green is the gate
+JX is green solid 
+RX is red for PMOS:Nmos Ratio 
+CA yellow solid
+ 
+
+HSPICE
+
+mkdir -p spice
+cd ~/cad/spice
+. /proj/cad/startup/profile.synopsys_2018
+hspice inv.pex.sp
+hspice inv.pex.sp > inv.pex.out
+
+
+
+Virtuoso DRC Rules (um)
+1. V1 area == 0.1 x 0.1
+2. M1 to M1 >= 0.09 
+3. M2 min area == 0.052 
+4. PC min area >= 0.042   Width == 0.06
+5. CA area == 0.09 x 0.09
+6. CA to PC >= 0.055 
+7. RX to JX/JZ >= 0.13
+8. PC over RX must be >= 0.14
+9. RX min area >= 0.042   => 0.45 x 0.12
+10. CA to M1 >= 0.015

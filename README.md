@@ -2,10 +2,10 @@ VLSI Design 65nm process
 
 
 Inverter Schematic 
-![Inverter](Projects/Inverter.png)
+![inverter](Projects/inverter.png)
 
 NAND2 Schematic
-![DFF](Projects/NAND2.png)
+![NAND2](Projects/NAND2.png)
 
 DFF Schematic
 ![DFF](Projects/DFF.png)

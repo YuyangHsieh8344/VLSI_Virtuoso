@@ -45,6 +45,7 @@ DFF Schematic
 ![1bit_fulladder](images/1bit_fulladder.png)
 
 4BIT_ADD_SUB Schematic
+4 (XOR + 1bit_fulladder)
 
 ![4bit_ADD_SUB](images/4bit_ADD_SUB.png)
 

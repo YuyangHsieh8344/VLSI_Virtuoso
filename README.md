@@ -28,14 +28,26 @@ NOR2 Output
 
 ![NOR2_output](images/NOR2_output.png)
 
-XOR2 Schematic
+XOR Schematic
 
-![XOR2](images/XOR2.png)
+![XOR](images/XOR.png)
 
 XOR Output
 
-![XOR_output](images/XOR2_output.png)
+![XOR_output](images/XOR_output.png)
 
 DFF Schematic
 
 ![DFF](images/DFF.png)
+
+1BIT_FULL_ADDER Schematic
+
+![1bit_fulladder](images/1bit_fulladder.png)
+
+4BIT_ADD_SUB Schematic
+
+![4bit_ADD_SUB](images/4bit_ADD_SUB.png)
+
+4BIT_ADD_SUB Output
+
+![add_sub_output](images/add_sub_output.png)

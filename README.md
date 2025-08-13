@@ -6,8 +6,11 @@ D – Delay (or Performance metric, e.g., latency)
 P – Power
 
 Area is related to silicon real estate (gates, LUTs, transistors).
+
 Delay is related to speed (lower delay = faster clock).
+
 Power determines energy efficiency and heat.
+
 Energy = Power × Time (per operation), so it links power and delay.
 
 Inverter Schematic 

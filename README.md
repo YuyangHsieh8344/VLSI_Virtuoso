@@ -1,4 +1,7 @@
 VLSI Design 65nm process
+<img width="734" height="372" alt="image" src="https://github.com/user-attachments/assets/0f712578-2c31-43b0-b125-c76fcc285dba" />
+<img width="758" height="516" alt="image" src="https://github.com/user-attachments/assets/92682a19-8f32-4d7b-b80c-e0cde16c82b7" />
+
 
 A – Area
 E – Energy (or Energy per operation)
